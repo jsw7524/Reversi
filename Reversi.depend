@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1388693357 source:c:\google driver\ai\reversi\gobang.rc
+	"resource.h"
+	"afxres.h"
+
+1387984647 c:\google driver\ai\reversi\resource.h
+
+1387808803 source:c:\google driver\ai\reversi\rules.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1389190041 source:c:\google driver\ai\reversi\myai.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<process.h>
+	<time.h>
+
+1388695098 source:c:\google driver\ai\reversi\interface.cpp
+	<windows.h>
+	<winable.h>
+	<process.h>
+	<stdio.h>
+	"resource.h"
+
+1386406309 source:c:\google driver\ai\reversi\mybenchmark.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1387980184 source:c:\google driver\ai\reversi\cb.rc
+
+1388693357 source:c:\users\jsw\google\ai\reversi\gobang.rc
+	"resource.h"
+	"afxres.h"
+
+1387984647 c:\users\jsw\google\ai\reversi\resource.h
+
+1388694746 source:c:\users\jsw\google\ai\reversi\interface.cpp
+	<windows.h>
+	<winable.h>
+	<process.h>
+	<stdio.h>
+	"resource.h"
+
+1389190849 source:c:\users\jsw\google\ai\reversi\myai.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<process.h>
+	<time.h>
+
+1387808803 source:c:\users\jsw\google\ai\reversi\rules.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

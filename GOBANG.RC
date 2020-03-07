@@ -1,0 +1,112 @@
+
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    POPUP "Options"
+        BEGIN
+            MENUITEM "Reset Game",                  IDC_RESET
+            POPUP "Player"
+                BEGIN
+                    MENUITEM "White",               IDC_WHITE
+                    MENUITEM "Black",               IDC_BLACK,CHECKED
+                END
+            POPUP "Level"
+                BEGIN
+                    MENUITEM "Easy",                IDC_LEVELEASY
+                    MENUITEM "Standard",            IDC_LEVELSTANDARD,CHECKED
+                    MENUITEM "Hard",                IDC_LEVELHARD
+                END
+            POPUP "Experimental"
+            BEGIN
+                POPUP "Multi-Core Support"
+                    BEGIN
+                        MENUITEM "Auto",             IDC_COREAUTO,CHECKED
+                        MENUITEM "1",                IDC_1CORE
+                        MENUITEM "2",                IDC_2CORES
+                        MENUITEM "4",                IDC_4CORES
+                    END
+            END
+            MENUITEM "Undo",                IDC_RESTORATION
+            MENUITEM SEPARATOR
+            MENUITEM "BENCHMARK",           IDC_BENCHMARK
+            MENUITEM SEPARATOR
+            MENUITEM "About",               IDC_VISION
+    END
+
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "icon1.ico"
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
